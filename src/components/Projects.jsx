@@ -3,6 +3,7 @@ import { IconFlutter, IconAI, IconFirebase, IconSupabase, IconGithub, IconLinked
 
 const projects = [
 
+
   {
     icon: IconAI, accent: 'purple', badge: 'AI Powered', featured: true,
     title: 'DermAssist',
@@ -116,11 +117,24 @@ const projects = [
     stack: ['Flutter', 'FastAPI', 'Gemini AI', 'YFinance'],
     technologies: ['Flutter', 'FastAPI', 'Gemini AI', 'YFinance'],
     githubUrl: 'https://github.com/farrukh6785-source/Stockpilot_Ai',
-    linkedinUrl: null,
+    linkedinUrl: 'https://www.linkedin.com/in/farrukh-raza-91b64b379/',
     comingSoon: false,
     liveDemoUrl: null,
     image: '/assets/stockpilot.png'
-  }
+  },
+  {
+    icon: IconAI, accent: 'teal', badge: 'AI Agriculture', featured: true,
+    title: 'AgroVision AI',
+    desc: 'A premium, production-quality smart farming assistant app. Features an interactive crop/farm dashboard, real-time weather integration, detailed analytics charts, and an AI scan interface.',
+    description: 'A premium, production-quality smart farming assistant app. Features an interactive crop/farm dashboard, real-time weather integration, detailed analytics charts, and an AI scan interface.',
+    stack: ['Flutter', 'Riverpod', 'Material 3', 'fl_chart'],
+    technologies: ['Flutter', 'Riverpod', 'Material 3', 'fl_chart'],
+    githubUrl: 'https://github.com/farrukh6785-source/AgroVision-Ai',
+    linkedinUrl: 'https://www.linkedin.com/posts/farrukh-raza-91b64b379_flutter-flutterdeveloper-dart-ugcPost-7486839596060852224-SKvw/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF2Iq2cB0bjJ5tQZoej33hJQetUlXu2v2uw',
+    comingSoon: false,
+    liveDemoUrl: null,
+    image: '/assets/agrovision.png'
+  },
 
 ]
 
@@ -130,6 +144,7 @@ const getYearBadge = (p) => {
   if (p.badge && p.badge.includes('2025')) return '2025';
   if (p.title === 'LifeDrop – Blood Donation App') return '2026';
   if (p.title === 'DermAssist') return '2026';
+  if (p.title === 'AgroVision AI') return '2026';
   if (p.title === 'Pharma Vision') return '2026';
   if (p.title === 'Smart Health Analyzer') return '2026';
   if (p.title === 'AI Personal Finance Tracker') return '2026';
