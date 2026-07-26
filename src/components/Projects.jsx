@@ -135,6 +135,19 @@ const projects = [
     liveDemoUrl: null,
     image: '/assets/agrovision.png'
   },
+  {
+    icon: IconAI, accent: 'teal', badge: 'AI Maintenance', featured: true,
+    title: 'FixFlow AI – Smart Complaint & Maintenance Management System',
+    desc: 'A premium, production-quality AI-powered platform to report issues, assign tasks, track progress, and manage maintenance efficiently.',
+    description: 'A premium, production-quality AI-powered platform to report issues, assign tasks, track progress, and manage maintenance efficiently. Built with clean architecture and Riverpod, features smart issue reporting, AI-powered work assignments, real-time tracking, and analytics dashboards.',
+    stack: ['Flutter', 'Riverpod', 'GoRouter', 'fl_chart'],
+    technologies: ['Flutter', 'Riverpod', 'GoRouter', 'fl_chart'],
+    githubUrl: 'https://github.com/farrukh6785-source/Smart-Complaints-Management-System-',
+    linkedinUrl: 'https://www.linkedin.com/posts/farrukh-raza-91b64b379_project-demo-%F0%9D%97%99%F0%9D%97%B6%F0%9D%98%85%F0%9D%97%99%F0%9D%97%B9%F0%9D%97%BC%F0%9D%98%84-%F0%9D%97%94%F0%9D%97%9C-smart-ugcPost-7487212586938089473-6dzT/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF2Iq2cB0bjJ5tQZoej33hJQetUlXu2v2uw',
+    comingSoon: false,
+    liveDemoUrl: null,
+    image: '/assets/fixflow.png'
+  },
 
 ]
 
@@ -145,6 +158,7 @@ const getYearBadge = (p) => {
   if (p.title === 'LifeDrop – Blood Donation App') return '2026';
   if (p.title === 'DermAssist') return '2026';
   if (p.title === 'AgroVision AI') return '2026';
+  if (p.title.includes('FixFlow AI')) return '2026';
   if (p.title === 'Pharma Vision') return '2026';
   if (p.title === 'Smart Health Analyzer') return '2026';
   if (p.title === 'AI Personal Finance Tracker') return '2026';
