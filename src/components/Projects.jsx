@@ -148,6 +148,19 @@ const projects = [
     liveDemoUrl: null,
     image: '/assets/fixflow.png'
   },
+  {
+    icon: IconAI, accent: 'purple', badge: 'AI Logistics', featured: true,
+    title: 'Warehouse AI – Smart Warehouse Operations & Inventory',
+    desc: 'A premium, enterprise-grade Flutter application for smart warehouse operations and inventory management. Features dynamic dashboard analytics, barcode/QR scanning, inventory zones map, stock movement timelines, and AI insights.',
+    description: 'A premium, enterprise-grade Flutter application for smart warehouse operations and inventory management. Features dynamic dashboard analytics, barcode/QR scanning, inventory zones map, stock movement timelines, and AI insights.',
+    stack: ['Flutter', 'Riverpod', 'GoRouter', 'fl_chart'],
+    technologies: ['Flutter', 'Riverpod', 'GoRouter', 'fl_chart'],
+    githubUrl: 'https://github.com/farrukh6785-source/Warehouse_Ai',
+    linkedinUrl: 'https://www.linkedin.com/posts/farrukh-raza-91b64b379_flutter-flutterdeveloper-dart-ugcPost-7488591406979264513-94tW/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAF2Iq2cB0bjJ5tQZoej33hJQetUlXu2v2uw',
+    comingSoon: false,
+    liveDemoUrl: null,
+    image: '/assets/warehouse.png'
+  },
 
 ]
 
@@ -157,6 +170,7 @@ const getYearBadge = (p) => {
   if (p.badge && p.badge.includes('2025')) return '2025';
   if (p.title === 'LifeDrop – Blood Donation App') return '2026';
   if (p.title === 'DermAssist') return '2026';
+  if (p.title.includes('Warehouse AI')) return '2026';
   if (p.title === 'AgroVision AI') return '2026';
   if (p.title.includes('FixFlow AI')) return '2026';
   if (p.title === 'Pharma Vision') return '2026';
